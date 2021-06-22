@@ -1,0 +1,82 @@
+[25-Oct-2020 23:13:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function echoOutput() in /home/bcstour/public_html/vkfashion/payumoney/index.php:75
+Stack trace:
+#0 {main}
+  thrown in /home/bcstour/public_html/vkfashion/payumoney/index.php on line 75
+[25-Oct-2020 23:13:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function echoOutput() in /home/bcstour/public_html/vkfashion/payumoney/index.php:75
+Stack trace:
+#0 {main}
+  thrown in /home/bcstour/public_html/vkfashion/payumoney/index.php on line 75
+[25-Oct-2020 23:15:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function echoOutput() in /home/bcstour/public_html/vkfashion/database.php:3
+Stack trace:
+#0 /home/bcstour/public_html/vkfashion/payumoney/index.php(2): include()
+#1 {main}
+  thrown in /home/bcstour/public_html/vkfashion/database.php on line 3
+[25-Oct-2020 23:15:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function echoOutput() in /home/bcstour/public_html/vkfashion/database.php:3
+Stack trace:
+#0 /home/bcstour/public_html/vkfashion/payumoney/index.php(2): include()
+#1 {main}
+  thrown in /home/bcstour/public_html/vkfashion/database.php on line 3
+[25-Oct-2020 23:16:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function echoOutput() in /home/bcstour/public_html/vkfashion/database.php:3
+Stack trace:
+#0 /home/bcstour/public_html/vkfashion/payumoney/index.php(2): include()
+#1 {main}
+  thrown in /home/bcstour/public_html/vkfashion/database.php on line 3
+[25-Oct-2020 23:16:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function echoOutput() in /home/bcstour/public_html/vkfashion/database.php:3
+Stack trace:
+#0 /home/bcstour/public_html/vkfashion/payumoney/index.php(2): include()
+#1 {main}
+  thrown in /home/bcstour/public_html/vkfashion/database.php on line 3
+[25-Oct-2020 23:18:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function echoOutput() in /home/bcstour/public_html/vkfashion/database.php:3
+Stack trace:
+#0 /home/bcstour/public_html/vkfashion/payumoney/index.php(2): include()
+#1 {main}
+  thrown in /home/bcstour/public_html/vkfashion/database.php on line 3
+[25-Oct-2020 23:18:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function echoOutput() in /home/bcstour/public_html/vkfashion/database.php:3
+Stack trace:
+#0 /home/bcstour/public_html/vkfashion/payumoney/index.php(2): include()
+#1 {main}
+  thrown in /home/bcstour/public_html/vkfashion/database.php on line 3
+[25-Oct-2020 23:18:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function echoOutput() in /home/bcstour/public_html/vkfashion/database.php:3
+Stack trace:
+#0 /home/bcstour/public_html/vkfashion/payumoney/index.php(2): include()
+#1 {main}
+  thrown in /home/bcstour/public_html/vkfashion/database.php on line 3
+[25-Oct-2020 23:20:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function echoOutput() in /home/bcstour/public_html/vkfashion/database.php:3
+Stack trace:
+#0 /home/bcstour/public_html/vkfashion/payumoney/index.php(2): require()
+#1 {main}
+  thrown in /home/bcstour/public_html/vkfashion/database.php on line 3
+[25-Oct-2020 23:21:29 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/bcstour/public_html/vkfashion/payumoney/index.php on line 84
+[25-Oct-2020 23:22:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function echoOutput() in /home/bcstour/public_html/vkfashion/payumoney/index.php:86
+Stack trace:
+#0 {main}
+  thrown in /home/bcstour/public_html/vkfashion/payumoney/index.php on line 86
+[25-Oct-2020 23:22:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function echoOutput() in /home/bcstour/public_html/vkfashion/payumoney/index.php:86
+Stack trace:
+#0 {main}
+  thrown in /home/bcstour/public_html/vkfashion/payumoney/index.php on line 86
+[25-Oct-2020 23:23:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function echoOutput() in /home/bcstour/public_html/vkfashion/payumoney/index.php:94
+Stack trace:
+#0 {main}
+  thrown in /home/bcstour/public_html/vkfashion/payumoney/index.php on line 94
+[25-Oct-2020 23:24:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function echoOutput() in /home/bcstour/public_html/vkfashion/payumoney/index.php:86
+Stack trace:
+#0 {main}
+  thrown in /home/bcstour/public_html/vkfashion/payumoney/index.php on line 86
+[25-Oct-2020 23:37:41 UTC] PHP Warning:  mysqli::query(): Empty query in /home/bcstour/public_html/vkfashion/payumoney/index.php on line 95
+[25-Oct-2020 23:37:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function echoOutput() in /home/bcstour/public_html/vkfashion/payumoney/index.php:105
+Stack trace:
+#0 {main}
+  thrown in /home/bcstour/public_html/vkfashion/payumoney/index.php on line 105
+[25-Oct-2020 23:38:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function echoOutput() in /home/bcstour/public_html/vkfashion/payumoney/index.php:105
+Stack trace:
+#0 {main}
+  thrown in /home/bcstour/public_html/vkfashion/payumoney/index.php on line 105
+[26-Oct-2020 01:15:20 UTC] PHP Parse error:  syntax error, unexpected ''' (T_ENCAPSED_AND_WHITESPACE), expecting ']' in /home/bcstour/public_html/vkfashion/payumoney/index.php on line 168
+[26-Oct-2020 01:27:49 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/bcstour/public_html/vkfashion/payumoney/index.php on line 107
+[26-Oct-2020 01:29:45 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/bcstour/public_html/vkfashion/payumoney/success.php on line 53
+[26-Oct-2020 01:33:25 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/bcstour/public_html/vkfashion/payumoney/success.php on line 53
+[26-Oct-2020 01:35:49 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/bcstour/public_html/vkfashion/payumoney/success.php on line 53
+[26-Oct-2020 17:06:43 UTC] PHP Parse error:  syntax error, unexpected ''|'' (T_CONSTANT_ENCAPSED_STRING) in /home/bcstour/public_html/vkfashion/payumoney/success.php on line 19
+[26-Oct-2020 17:40:26 UTC] PHP Parse error:  syntax error, unexpected '$type' (T_VARIABLE), expecting ',' or ';' in /home/bcstour/public_html/vkfashion/payumoney/index.php on line 157
+[26-Oct-2020 17:40:56 UTC] PHP Parse error:  syntax error, unexpected '$type' (T_VARIABLE), expecting ',' or ';' in /home/bcstour/public_html/vkfashion/payumoney/index.php on line 157

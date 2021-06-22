@@ -1,0 +1,304 @@
+@import url("ionicons.css");
+@import url("plyr.css");
+@import url("socialshare.css");
+@import url("scrollbar.css");
+
+.uk-display-inline-flex{
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    align-items: center;
+}
+.uk-display-inline-flex:after{
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    transform: rotate(-45deg);
+    margin-left: 10px;
+}
+.uk-user-menu{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+.uk-user-menu *{
+    box-sizing: border-box;
+}
+.uk-user-menu .uk-display-inline-flex{
+    cursor: pointer;
+}
+.uk-user-menu .uk-subnav-sub{
+	position: absolute;
+    top: 100%;
+    right: 0;
+    min-width: 200px;
+    list-style: none;
+    background: #222121;
+    margin-top: 20px;
+    padding: 0 0 10px;
+    display: none;
+    z-index: 1;
+    box-shadow: 0 5px 20px 0 rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.uk-user-menu .dropdown-btn.show ~ .uk-subnav-sub{
+    display: block;
+}
+.uk-user-menu .uk-subnav-sub a{
+	color: #fff;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    padding: 7px 15px;
+}
+.uk-user-menu .uk-subnav-sub .uk-users{
+    list-style: none;
+    padding: 15px 0;
+    margin: 0;
+    width: 100%;
+    border-bottom: 1px solid #3a3a3a;
+    margin-bottom: 10px;
+    padding-bottom: 7px;
+}
+.uk-user-menu .uk-subnav-sub .uk-users li{
+    margin-bottom: 0;
+}
+.uk-user-menu .uk-subnav-sub .uk-users img{
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+.uk-user-menu .uk-subnav-sub .uk-users a{
+    font-size: 14px;
+    width: 100%;
+    padding: 10px 15px;
+}
+
+.manage-profile{
+	text-align: center;
+}
+.height-fixed, .height-fixed *{
+    box-sizing: border-box;
+}
+.height-fixed{
+    min-height:calc(100vh - 450px);
+    width:100%;
+    padding-top: 30px;
+}
+.manage-profile table td{
+	padding: 0 15px;
+}
+.profile_switcher {
+    font-size: 18px;
+    color: #fff;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.profile_switcher_img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    object-position: top center;
+    border: 6px solid #3a3a3a;
+    opacity: 0.5;
+    transition: 0.4s;
+}
+.profile_switcher:hover .profile_switcher_img{
+    border-color: #fff;
+}
+.select-user .profile_switcher_img{
+    opacity: 1;
+}
+.profile_switcher_edit {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    color: #fff;
+    width: 100%;
+}
+.manage-profile .user-name{
+	margin-top: 0;
+	display: inline-block;
+	width: 100%;
+	vertical-align: bottom;
+	color: #fff;
+	font-size: 18px;
+}
+.profile_manage_done {
+    font-size: 25px;
+    padding: 10px 30px;
+    text-decoration: none;
+    background-color: #fff;
+    color: #000;
+    margin-top: 25px;
+    display: inline-block;
+}
+.profile_manage_done:hover{
+	background-color: #b9060f;
+	color: #fff;
+}
+
+.profile_switcher_edit .uk-icon-stack-2x, .profile_switcher_edit .uk-icon-stack-1x {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+.profile_switcher_edit .uk-icon-stack-2x {
+    font-size: 2em;
+    top: -35px;
+}
+.profile_switcher_edit .uk-icon-stack-1x {
+    line-height: inherit;
+    top: -27px;
+}
+
+.user-edit-box{
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+}
+.user-edit-box .img-box{
+    width: 160px;
+}
+.user-edit-box .img-box img{
+    max-width: 100%;
+}
+.user-edit-box .input-box{
+    width: calc(100% - 160px);
+    padding-left: 20px;
+}
+.user-edit-box .input-box .input_black{
+    width: 100%;
+    height: auto;
+    background: #666;
+    border: 1px solid transparent;
+    margin: 0 .8em 0 0;
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 1.5rem;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+}
+.btn_block{
+    font-size: 20px;
+    padding: 10px 30px;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #fff;
+    color: #000;
+    margin: 10px;
+}
+.btn_block:hover {
+    text-decoration: none;
+    background-color: #c00;
+    border-color: #c00;
+    color: #fff;
+}
+.btn_blank {
+    font-size: 20px;
+    border: 1px solid #ccc;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin: 10px;
+    color: #999;
+}
+.btn_blank:hover {
+    font-size: 20px;
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #fff;
+}
+
+@media screen and (max-width: 1199px){
+    .profile_switcher_img{
+        width: 150px;
+        height: 150px;
+    }
+    .profile_switcher{
+        font-size: 16px;
+    }
+    .profile_switcher_edit .uk-icon-stack-2x{
+        top: -30px;
+    }
+    .profile_switcher_edit .uk-icon-stack-1x{
+        top: -24px;
+    }
+    .loggednav{
+        margin-right: 15px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .manage-profile table tr{
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .manage-profile table tr td{
+        display: block;
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .profile_manage_done{
+        margin-top: 0;
+    }
+    .user-edit-box .img-box{
+        width: 80px;
+    }
+    .user-edit-box .input-box{
+        width: calc(100% - 80px);
+        padding-left: 15px;
+    }
+    .user-edit-box .input-box .input_black{
+        font-size: 1rem;
+    }
+    .profile_manage_done, .btn_block, .btn_blank{
+        font-size: 20px;
+        padding: 5px 20px;
+        margin: 10px 5px;
+    }
+
+    .uk-user-menu .uk-subnav-sub{
+        position: relative;
+        width: 100%;
+        top: auto;
+        border: none;
+        box-shadow: none;
+        background: transparent;
+        padding: 0;
+    }
+    .uk-comment-header .tm-avatar{
+        margin-left: 0;
+        margin-right: 10px;
+    }
+    .uk-user-menu .uk-subnav-sub .uk-users{
+        padding-top: 0;
+        padding-bottom: 0;
+        border-bottom: none;
+    }
+    .uk-user-menu .uk-subnav-sub a{
+        padding: 7px 0;
+    }
+    .uk-user-menu .uk-subnav-sub .uk-users a{
+        padding: 10px 0;
+    }
+}
+
+
+
+
+
+
+
